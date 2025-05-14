@@ -46,7 +46,7 @@ const Resume = () => {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <FaFileDownload />
-            <a href="/Rahul_Resume.pdf" download="Rahul_Resume.pdf">
+            <a href="/rahul_resume.pdf" download="rahul_resume.pdf">
               Download Resume
             </a>
           </motion.button>
