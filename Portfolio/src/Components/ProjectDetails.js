@@ -6,7 +6,7 @@ const projects = [
   {
     title: "ImaginAI",
     description:
-      "Geni AI is an AI-powered web application that allows users to generate images from text prompts and voice recordings.",
+      "A spherical surveillance robot with live video streaming, mobile control, and an AI-powered chatbot that explains its features in real time.",
     moreInfo:
       "Built using React for the frontend and Node.js for the backend, the app integrates Hugging Face models to bring natural language understanding and image generation capabilities to life.",
     techStack: "React, Node.js, Tailwind CSS, Hugging Face Diffusers",
