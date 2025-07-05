@@ -4,7 +4,7 @@ import { FaGithub, FaBriefcase,FaLinkedinIn} from "react-icons/fa";
 
 const projects = [
   {
-    title: "ImaginAI",
+    title: "SpyroSphere",
     description:
       "A spherical surveillance robot with live video streaming, mobile control, and an AI-powered chatbot that explains its features in real time.",
     moreInfo:
