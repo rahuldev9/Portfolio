@@ -11,7 +11,7 @@ const projects = [
       "Built using React for the frontend and Node.js for the backend, the app integrates Hugging Face models to bring natural language understanding and image generation capabilities to life.",
     techStack: "React, Node.js, Tailwind CSS, Hugging Face Diffusers",
     github: "https://github.com/rahuldev9/ImaginAI",
-    linkedin:"https://www.linkedin.com/posts/rahul-mudavath-848978301_genai-voicetoimage-huggingface-activity-7326610576506253314-vzFO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E"
+    linkedin:"https://www.linkedin.com/posts/rahul-mudavath-848978301_engineeringinnovation-surveillancerobot-aichatbot-activity-7346904333327773697-H75l?utm_source=share&utm_medium=member_android&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E"
   },
   {
     title: "ScoreSync",
