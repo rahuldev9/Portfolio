@@ -9,7 +9,8 @@ const projects = [
       "A spherical surveillance robot with live video streaming, mobile control, and an AI-powered chatbot that explains its features in real time.",
     moreInfo:
       "A surveillance robot housed inside a spherical shell, driven by an internal pendulum mechanism for smooth motion. Integrated with an ESP32-CAM for live video streaming and a mobile app for control, the system also features a custom-built AI chatbot that answers queries about the robot's design, components, and functionality—making it both innovative and user-friendly.",
-    github: "https://github.com/rahuldev9/ImaginAI",
+    techStack: "React, Node.js, Tailwind CSS,Gemini API",
+    github: "https://github.com/rahuldev9/SpyroSphere",
     linkedin:"https://www.linkedin.com/posts/rahul-mudavath-848978301_engineeringinnovation-surveillancerobot-aichatbot-activity-7346904333327773697-H75l?utm_source=share&utm_medium=member_android&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E"
   },
   {
