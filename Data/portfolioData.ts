@@ -72,7 +72,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       label: "View My Resume",
-      url: "https://drive.google.com/file/d/1Be3pPV-FYPma7-XwefmM4pJfLW49DkVL/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1U-S9GZbXT5jbOpQ47nTxzCU7fVJg0pOj/view?usp=sharing",
       icon: "resume",
     },
     {
