@@ -141,7 +141,7 @@ export const portfolioData: PortfolioData = {
         "Geni AI is an AI-powered web application that allows users to generate images from text prompts and voice recordings. Built using React for the frontend and Node.js for the backend, the app integrates Hugging Face models to bring natural language understanding and image generation capabilities to life.",
       tags: "React, Node.js, Tailwind CSS, Hugging Face Diffusers",
       LinkedInUrl:
-        "linkedin.com/posts/rahul-mudavath-848978301_engineeringinnovation-surveillancerobot-aichatbot-activity-7346904333327773697-H75l?utm_source=share&utm_medium=member_android&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E",
+        "https://www.linkedin.com/posts/rahul-mudavath-848978301_genai-voicetoimage-huggingface-activity-7326610576506253314-vzFO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E",
       GitHubUrl: "https://github.com/rahuldev9/ImaginAI",
     },
     {
@@ -158,7 +158,7 @@ export const portfolioData: PortfolioData = {
         "This project is a modern, web-based multiplayer Tic-Tac-Toe game designed to deliver a smooth and interactive experience. Built with React.js for the front-end, Node.js for the backend server, and Socket.io for real-time communication, it enables players to connect, compete, and chat in real-time from anywhere in the world.",
       tags: "React, Node.js",
       LinkedInUrl:
-        "linkedin.com/posts/rahul-mudavath-848978301_reactjs-nodejs-socketio-activity-7316852975904182272-7cvn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E",
+        "https://www.linkedin.com/posts/rahul-mudavath-848978301_reactjs-nodejs-socketio-activity-7316852975904182272-7cvn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E",
       GitHubUrl: "https://github.com/rahuldev9/TicTacToe",
     },
   ],
