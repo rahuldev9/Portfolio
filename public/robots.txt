@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rahul-mudavath.vercel.app/
+
+# Sitemaps
+Sitemap: https://rahul-mudavath.vercel.app/sitemap.xml
