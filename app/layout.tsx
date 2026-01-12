@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Mudavath Rahul Portfolio",
     images: [
       {
-        url: "/Rahul.jpg",
+        url: "https://rahulmudavath.vercel.app/Rahul.jpg",
         width: 1200,
         height: 630,
         alt: "Mudavath Rahul - Full Stack Developer",
@@ -63,6 +63,9 @@ export const metadata: Metadata = {
     description:
       "Portfolio of Mudavath Rahul – Full Stack Developer & Gen AI Engineer.",
     images: ["/Rahul.jpg"],
+  },
+  verification: {
+    google: "ipHbApTsNCMMhHn91DcftOdV-fdz6Bsx_qDN0GkoUdg",
   },
 
   robots: {
