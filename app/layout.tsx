@@ -34,17 +34,17 @@ export const metadata: Metadata = {
     "Hyderabad Developer",
   ],
 
-  metadataBase: new URL("https://rahulmudavath.vercel.app"),
+  metadataBase: new URL("https://rahul-mudavath.vercel.app"),
 
   alternates: {
-    canonical: "https://rahulmudavath.vercel.app",
+    canonical: "https://rahul-mudavath.vercel.app",
   },
 
   openGraph: {
     title: "Mudavath Rahul | Full Stack Developer & Gen AI Engineer",
     description:
       "Portfolio of Mudavath Rahul – Full Stack Developer & Gen AI Engineer specializing in MERN Stack, Next.js, LLMs, and Automation.",
-    url: "https://rahulmudavath.vercel.app",
+    url: "https://rahul-mudavath.vercel.app",
     siteName: "Mudavath Rahul Portfolio",
     images: [
       {
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Mudavath Rahul | Full Stack Developer & Gen AI Engineer",
     description:
       "Portfolio of Mudavath Rahul – Full Stack Developer & Gen AI Engineer.",
-    images: ["/Rahul.jpg"],
+    images: ["https://rahul-mudavath.vercel.app/Rahul.jpg"],
   },
   verification: {
     google: "ipHbApTsNCMMhHn91DcftOdV-fdz6Bsx_qDN0GkoUdg",
@@ -102,7 +102,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Mudavath Rahul",
-              url: "https://rahul-mudavath.vercel.app/",
+              url: "https://rahul-mudavath.vercel.app",
               image: "/Rahul.jpg",
               jobTitle: "Full Stack Developer & Gen AI Engineer",
               description:
