@@ -181,7 +181,7 @@ const BentoPortfolio = () => {
                   />
 
                   {/* Instagram Card */}
-                  <a
+                  {/* <a
                     href={d.socialLinks[4]?.url}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -191,7 +191,7 @@ const BentoPortfolio = () => {
                       <div className="w-14 h-14 bg-gradient-to-br from-purple-500 via-pink-500 to-orange-500 rounded-2xl flex items-center justify-center">
                         <Instagram className="w-7 h-7 text-white" />
                       </div>
-                      {/* Instagram preview grid */}
+                      
                       <div className="grid grid-cols-3 gap-1">
                         {[...Array(9)].map((_, i) => (
                           <div
@@ -204,7 +204,7 @@ const BentoPortfolio = () => {
                     <p className="text-base font-semibold text-gray-900">
                       {d.socialLinks[4]?.label}
                     </p>
-                  </a>
+                  </a> */}
                 </div>
 
                 {/* Right Column - GitHub */}
