@@ -8,8 +8,10 @@ import {
   FileText,
   MoveUpRight,
   Code,
+  Globe,
   Instagram,
   Github,
+  Link2,
 } from "lucide-react";
 import { portfolioData } from "@/Data/portfolioData";
 import { motion } from "framer-motion";
@@ -231,8 +233,8 @@ const BentoPortfolio = () => {
                               Math.random() > 0.7
                                 ? "bg-green-500"
                                 : Math.random() > 0.5
-                                ? "bg-green-300"
-                                : "bg-gray-200"
+                                  ? "bg-green-300"
+                                  : "bg-gray-200"
                             }`}
                           />
                         ))}
@@ -246,48 +248,31 @@ const BentoPortfolio = () => {
               </div>
             </div>
 
-            {/* Education */}
-            <div
-              className="bg-white rounded-3xl p-8 cursor-pointer"
-              onClick={() => handleClick(d.education.url)}
-            >
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                Education
-              </h2>
-              <div className="bg-gray-50 rounded-2xl p-6 relative hover:bg-gray-100 ">
-                <div className="absolute top-4 right-4 w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
-                  <MoveUpRight className="h-4 w-4 text-white" />
-                </div>
-
-                <h3 className="font-semibold text-base text-gray-900 mb-2 pr-8">
-                  {d.education.degree} @ {d.education.school}
-                </h3>
-                <p className="text-sm text-gray-600 mb-1">
-                  {d.education.location}
-                </p>
-                <p className="text-sm text-gray-600">{d.education.duration}</p>
-              </div>
-            </div>
-
             {/* Experience */}
             {d.experiences && (
               <div className="bg-white rounded-3xl p-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">
                   Experience
                 </h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {d.experiences?.map((exp, i) => (
                     <div
                       key={i}
-                      className="bg-gray-50 rounded-2xl p-6 hover:bg-gray-100 transition-colors relative"
+                      onClick={() => handleClick(exp.url)}
+                      className="bg-gray-50 rounded-2xl p-6 hover:bg-gray-100 transition-colors relative cursor-pointer"
                     >
-                      <div className="absolute top-4 right-4 w-6 h-6 bg-gray-200 rounded-full"></div>
+                      <div className="absolute top-4 right-4 w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+                        <MoveUpRight className="h-4 w-4 text-white" />
+                      </div>
                       <h3 className="font-semibold text-base text-gray-900 mb-2 pr-8">
                         {exp.title} @ {exp.company}
                       </h3>
                       <p className="text-sm text-gray-600">
                         {exp.location} - {exp.duration}
                       </p>
+
+                      <p className="text-sm text-gray-600">{exp.description}</p>
                     </div>
                   ))}
                 </div>
@@ -318,6 +303,28 @@ const BentoPortfolio = () => {
                   <span className="font-semibold">Databases:</span>{" "}
                   {d.databases.join(", ")}
                 </p>
+              </div>
+            </div>
+            {/* Education */}
+            <div
+              className="bg-white rounded-3xl p-8 cursor-pointer"
+              onClick={() => handleClick(d.education.url)}
+            >
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">
+                Education
+              </h2>
+              <div className="bg-gray-50 rounded-2xl p-6 relative hover:bg-gray-100 ">
+                <div className="absolute top-4 right-4 w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+                  <MoveUpRight className="h-4 w-4 text-white" />
+                </div>
+
+                <h3 className="font-semibold text-base text-gray-900 mb-2 pr-8">
+                  {d.education.degree} @ {d.education.school}
+                </h3>
+                <p className="text-sm text-gray-600 mb-1">
+                  {d.education.location}
+                </p>
+                <p className="text-sm text-gray-600">{d.education.duration}</p>
               </div>
             </div>
 
@@ -370,6 +377,19 @@ const BentoPortfolio = () => {
                       </p>
                       <div className="flex flex-row justify-end">
                         {/* GitHub */}
+                        {p.url && (
+                          <a
+                            href={p.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            className="rounded-2xl p-4 flex flex-col items-center justify-center"
+                          >
+                            <div className="w-8 h-8  rounded-xl flex items-center justify-center mb-2">
+                              <Link2 className="w-4 h-4 text-black" />
+                            </div>
+                          </a>
+                        )}
                         {p.GitHubUrl && (
                           <a
                             href={`${p.GitHubUrl}`}
