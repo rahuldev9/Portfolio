@@ -272,7 +272,7 @@ const BentoPortfolio = () => {
                         {exp.location} - {exp.duration}
                       </p>
 
-                      <p className="text-sm text-gray-600">{exp.description}</p>
+                      {/* <p className="text-sm text-gray-600">{exp.description}</p> */}
                     </div>
                   ))}
                 </div>
