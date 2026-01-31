@@ -67,6 +67,7 @@ export const metadata: Metadata = {
   verification: {
     google: "ipHbApTsNCMMhHn91DcftOdV-fdz6Bsx_qDN0GkoUdg",
   },
+  
 
   robots: {
     index: true,
@@ -92,6 +93,8 @@ export default function RootLayout({
         name="google-site-verification"
         content="ipHbApTsNCMMhHn91DcftOdV-fdz6Bsx_qDN0GkoUdg"
       />
+      
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
