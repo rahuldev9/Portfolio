@@ -112,7 +112,7 @@ export const portfolioData: PortfolioData = {
     },
   ],
 
-  languages: ["C", "Python", "HTML", "CSS", "JavaScript"],
+  languages: ["C", "Python", "HTML", "CSS", "JavaScript", "PHP"],
   techstack: [
     "Full Stack Development",
     "Generative AI",
@@ -121,7 +121,7 @@ export const portfolioData: PortfolioData = {
     "REST APIs",
     "Backend Development",
   ],
-  tools: ["Git", "GitHub", "VS Code", "N8N Automation"],
+  tools: ["Git", "GitHub", "VS Code", "N8N Automation", "claude.ai", "chatgpt"],
   frameworks: [
     "React JS",
     "Next JS",
@@ -130,7 +130,7 @@ export const portfolioData: PortfolioData = {
     "FastAPI",
     "Express.js",
   ],
-  databases: ["MongoDB", "PostgreSQL (Supabase)"],
+  databases: ["MongoDB", "PostgreSQL (Supabase)", "MySQL"],
 
   experiences: [
     {
@@ -187,14 +187,13 @@ export const portfolioData: PortfolioData = {
       GitHubUrl: "https://github.com/rahuldev9/ScoreSync",
     },
     {
-      title: "Real-Time Tic-Tac-Toe",
-      url: "https://tic-tac-toe-theta-six-56.vercel.app",
+      title: "HireNexa – AI-Driven Recruitment Management System",
+      url: "https://hirenexa.infinityfreeapp.com",
       description:
-        "Multiplayer Tic-Tac-Toe game with real-time gameplay, chat, private rooms, and win detection using Socket.io.",
-      tags: "React, Node.js, Socket.io",
-      LinkedInUrl:
-        "https://www.linkedin.com/posts/rahul-mudavath-848978301_nextjs-reactjs-nodejs-activity-7316852975904182272-O7te?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E",
-      GitHubUrl: "https://github.com/rahuldev9/tic-tac-toe",
+        "Developed HireNexa, a full-stack recruitment platform using PHP (MVC), MySQL, JavaScript, Tailwind CSS, and Razorpay API, featuring job management, technical assessments, real-time proctoring, authentication, role-based access control, in-app chat, subscriptions, analytics, and an admin dashboard.",
+      tags: "PHP (MVC), MySQL, JavaScript, Tailwind CSS",
+      LinkedInUrl: "https://www.linkedin.com/in/rahul-mudavath-848978301/",
+      GitHubUrl: "https://github.com/rahuldev9/hirenexa",
     },
   ],
 
