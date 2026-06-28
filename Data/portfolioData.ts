@@ -186,14 +186,24 @@ export const portfolioData: PortfolioData = {
       tags: "React, Node.js, Express.js, MongoDB",
       GitHubUrl: "https://github.com/rahuldev9/ScoreSync",
     },
+    // {
+    //   title: "HireNexa – AI-Driven Recruitment Management System",
+    //   url: "https://hirenexa.infinityfreeapp.com",
+    //   description:
+    //     "Developed HireNexa, a full-stack recruitment platform using PHP (MVC), MySQL, JavaScript, Tailwind CSS, and Razorpay API, featuring job management, technical assessments, real-time proctoring, authentication, role-based access control, in-app chat, subscriptions, analytics, and an admin dashboard.",
+    //   tags: "PHP (MVC), MySQL, JavaScript, Tailwind CSS",
+    //   LinkedInUrl: "https://www.linkedin.com/in/rahul-mudavath-848978301/",
+    //   GitHubUrl: "https://github.com/rahuldev9/hirenexa",
+    // },
     {
-      title: "HireNexa – AI-Driven Recruitment Management System",
-      url: "https://hirenexa.infinityfreeapp.com",
+      title: "NearBuzz",
+      url: "https://github.com/rahuldev9/NearBuzz",
       description:
-        "Developed HireNexa, a full-stack recruitment platform using PHP (MVC), MySQL, JavaScript, Tailwind CSS, and Razorpay API, featuring job management, technical assessments, real-time proctoring, authentication, role-based access control, in-app chat, subscriptions, analytics, and an admin dashboard.",
-      tags: "PHP (MVC), MySQL, JavaScript, Tailwind CSS",
-      LinkedInUrl: "https://www.linkedin.com/in/rahul-mudavath-848978301/",
-      GitHubUrl: "https://github.com/rahuldev9/hirenexa",
+        "NearBuzz is a full-stack event discovery and booking platform that enables users to create, discover, and book nearby events effortlessly. Built with React Native (Expo), Node.js, Express.js, and MongoDB, it features secure JWT authentication, event and profile management, slot booking, and AI-powered event generation, with an intelligent AI assistant currently under development.",
+      tags: "React Native (Expo), JavaScript, Node.js, Express.js, MongoDB, AI Integration",
+      LinkedInUrl:
+        "https://www.linkedin.com/posts/rahul-mudavath-848978301_nearbuzz-reactnative-expo-activity-7476948732585029632-pmht?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE01LbgBD59i-E1DDhOdAWTa29R7QKhBu8E",
+      GitHubUrl: "https://github.com/rahuldev9/NearBuzz",
     },
   ],
 
