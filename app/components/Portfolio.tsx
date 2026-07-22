@@ -30,7 +30,7 @@ const BentoPortfolio = () => {
     <div className="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
       <div className="max-w-7xl mx-auto">
         <div className="lg:flex lg:gap-4">
-          <div className="lg:w-4/12 space-y-4 lg:sticky lg:top-0 flex-1 items-center">
+          <div className="lg:w-4/12 space-y-4 lg:sticky lg:top-0 flex items-center">
             <ProfileCard
               name={d.name}
               about={d.about}
