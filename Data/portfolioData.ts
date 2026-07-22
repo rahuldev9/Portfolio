@@ -80,7 +80,7 @@ export const portfolioData: PortfolioData = {
     "Software Engineer with hands-on experience in full-stack web development and Generative AI. Strong foundation in scalable web applications, REST APIs, and collaborative product development. Experienced in building production-grade features at startups.",
 
   about:
-    "Gen AI | Full-Stack Developer | MERN Stack | Python • ReactJS • Node.js • LLMs • RAG • NextJS | N8N Automation | Ex-IIITDM Intern | ECE ’25 @ OU",
+    "Gen AI | Full-Stack Developer | MERN Stack | Python • ReactJS • Node.js • LLMs • RAG • NextJS | N8N Automation | React Native | Ex-IIITDM Intern | ECE ’25 @ OU",
 
   location: "Hyderabad, Telangana, India",
   phone: "+91 9494171574",
