@@ -18,6 +18,7 @@ export interface ProjectItem {
   title: string;
   description: string;
   tags: string;
+  image?: string;
   url?: string;
   GitHubUrl?: string;
   LinkedInUrl?: string;
@@ -162,6 +163,7 @@ export const portfolioData: PortfolioData = {
   projects: [
     {
       title: "SpyroSphere (B.E. Major Project)",
+      image: "https://opengraph.githubassets.com/1/rahuldev9/SpyroSphere",
       url: "https://spyro-sphere.vercel.app",
       description:
         "A spherical surveillance robot with pendulum-based drive system, ESP32-CAM live video streaming, and an AI-powered chatbot that explains robot features in real time.",
@@ -170,17 +172,30 @@ export const portfolioData: PortfolioData = {
         "https://www.linkedin.com/posts/rahul-mudavath-848978301_engineeringinnovation-surveillancerobot-aichatbot-activity-7346904333327773697-H75l",
       GitHubUrl: "https://github.com/rahuldev9/SpyroSphere",
     },
+    // {
+    //   title: "ImaginAI",
+    //   image: "https://opengraph.githubassets.com/1/rahuldev9/ImaginAI",
+    //   description:
+    //     "AI-powered web application that generates images from text and voice prompts using Hugging Face Diffusers. Integrated NLP and image generation pipelines.",
+    //   tags: "React, Node.js, Tailwind CSS, Hugging Face",
+    //   LinkedInUrl:
+    //     "https://www.linkedin.com/posts/rahul-mudavath-848978301_genai-voicetoimage-huggingface-activity-7326610576506253314-vzFO",
+    //   GitHubUrl: "https://github.com/rahuldev9/ImaginAI",
+    // },
     {
-      title: "ImaginAI",
+      title: "Devpulse",
+      url: "https://devpulse-azure.vercel.app/",
+
       description:
-        "AI-powered web application that generates images from text and voice prompts using Hugging Face Diffusers. Integrated NLP and image generation pipelines.",
-      tags: "React, Node.js, Tailwind CSS, Hugging Face",
-      LinkedInUrl:
-        "https://www.linkedin.com/posts/rahul-mudavath-848978301_genai-voicetoimage-huggingface-activity-7326610576506253314-vzFO",
-      GitHubUrl: "https://github.com/rahuldev9/ImaginAI",
+        "Built DevPulse, a full-stack coding platform using Next.js, Node.js, Express, and MongoDB, featuring JWT and Google OAuth authentication, an online code editor, submission tracking, and a leaderboard system to analyze developer performance.",
+      tags: "Next.js, Node.js, Express, and MongoDB",
+
+      GitHubUrl: "https://github.com/rahuldev9/DevPulse",
     },
     {
       title: "ScoreSync",
+      url: "https://score-sync.vercel.app/",
+      image: "https://opengraph.githubassets.com/1/rahuldev9/ScoreSync",
       description:
         "Full-stack live cricket scoring application inspired by Cricbuzz with team creation, match scheduling, and real-time score updates.",
       tags: "React, Node.js, Express.js, MongoDB",
@@ -197,7 +212,9 @@ export const portfolioData: PortfolioData = {
     // },
     {
       title: "NearBuzz",
-      url: "https://github.com/rahuldev9/NearBuzz",
+      url: "https://nearbuzz.vercel.app/",
+      image: "https://opengraph.githubassets.com/1/rahuldev9/NearBuzz",
+
       description:
         "NearBuzz is a full-stack event discovery and booking platform that enables users to create, discover, and book nearby events effortlessly. Built with React Native (Expo), Node.js, Express.js, and MongoDB, it features secure JWT authentication, event and profile management, slot booking, and AI-powered event generation, with an intelligent AI assistant currently under development.",
       tags: "React Native (Expo), JavaScript, Node.js, Express.js, MongoDB, AI Integration",
