@@ -139,7 +139,7 @@ export default function ProjectsGrid({ projects }: Props) {
   return (
     <div
       id="projects"
-      className="bg-white dark:bg-slate-900 rounded-3xl p-8 scroll-mt-24"
+      className="bg-white dark:bg-slate-950 rounded-3xl p-8 scroll-mt-24"
     >
       <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-6">
         Projects
