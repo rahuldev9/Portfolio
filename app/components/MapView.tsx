@@ -73,11 +73,11 @@ export default function MapView({ locations, height = "450px" }: MapViewProps) {
           <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
             <img
               src="${location.profileImage || "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80"}"
-              alt="${location.studentName || "Student Partner"}"
+              alt="${location.name || "Student Partner"}"
               style="width:40px; height:40px; border-radius:999px; object-fit:cover; border:2px solid #dbeafe;"
             />
             <div>
-              <div style="font-size:12px; font-weight:700; color:#2563eb; text-transform:uppercase; letter-spacing:0.04em;">Student Partner</div>
+             
               <div class="custom-popup-name" style="font-size:13px; font-weight:700; color:#0f172a; line-height:1.2;">${location.studentName || "Student Lead"}</div>
             </div>
           </div>
